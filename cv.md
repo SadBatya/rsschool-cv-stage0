@@ -4,3 +4,4 @@
   - [Telegram](https://t.me/sadbatya)
   - [GitHub](https://github.com/SadBatya)
 ### Мой опыт и образование:
+    -Я ветеринар
