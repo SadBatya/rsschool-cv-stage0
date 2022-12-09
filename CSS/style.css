@@ -1,0 +1,14 @@
+.wrapper{
+    
+}
+
+.container{
+    width: 595px;
+    height: 842px;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    
+    background-color: black;
+}
