@@ -7,6 +7,8 @@
 }
 
 .container{
+    display: flex;
+    flex-direction: row;
     width: 650px;
     height: 850px;
     background-color: gray;
@@ -147,7 +149,7 @@
 .industry__knowledge-text{
     display: flex;
     flex-direction: column;
-    margin-top: -20px;
+    margin-top: -10px;
     margin-left: 20px;
     font-size: 14px;
 }
@@ -180,4 +182,92 @@
     color: white;
     font-size: 14px;
     font-weight: 100;
+}
+
+/*=================================Hobbies========================*/
+
+
+
+
+
+
+
+
+
+/*=================================Experience__nav========================*/
+
+.container__nav {
+    width: 321px;
+    height: 830px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+.experience {
+    width: 294px;
+    height: 202px;
+
+}
+.experience__header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 154px;
+    height: 24px;
+    background-color: #545454;
+    border-radius: 5px;
+    margin: 19px 153px 12px 14px;
+}
+
+
+.experience__header-text{
+    position: relative;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 3px 30px 3px 30px;
+}
+
+.experience__header-text::after{
+    position: absolute;
+    content: '';
+    top: 8px;
+    height: 1px;
+    width: 170px;
+    background-color: #545454;
+    
+}
+
+.experience__text-item {
+    margin-left: 14px;
+
+}
+
+.experience__text-name {
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.experience__text-speciality {
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+.experience__text-period {
+    font-size: 9px;
+    font-weight: 400;
+
+}
+
+.experience__text-making {
+font-weight: 400;
+font-size: 9px;
+}
+
+.experience__text-item2{
+    margin-top: 12px;
+    margin-left: 14px;
 }
