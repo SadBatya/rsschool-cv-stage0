@@ -163,6 +163,7 @@
     width: 260px;
     height: 87px;
     background-color: rgb(56, 59, 59);
+    border-radius: 20px;
 }
 
 .languages__text{
@@ -186,8 +187,44 @@
 
 /*=================================Hobbies========================*/
 
+.hobbies{
+    margin-top: 12px;
+    margin-left: 15px;
+    width: 260px;
+    height: 97px;
+}
 
+.hobbies__header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100px;
+    height: 32px;
+    background-color: #545454;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 13px;
+}
 
+.hobbies__inner-grid{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, .8fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+
+.hobbies__inner{
+    color: white;
+}
+
+.hobbies__inner-text{
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: 700px;
+}
 
 
 
