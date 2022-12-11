@@ -12,6 +12,7 @@
     width: 650px;
     height: 850px;
     background-color: gray;
+    border-radius: 10px;
 }
 
 .header{
@@ -218,6 +219,12 @@
 
 .hobbies__inner{
     color: white;
+    margin-left: 20px;
+    transition: .3s;
+}
+
+.hobbies__inner:hover{
+    scale: 1.05;
 }
 
 .hobbies__inner-text{
@@ -225,11 +232,6 @@
     font-size: 12px;
     font-weight: 700px;
 }
-
-
-
-
-
 
 /*=================================Experience__nav========================*/
 
@@ -278,13 +280,11 @@
 
 .experience__text-item {
     margin-left: 14px;
-
 }
 
 .experience__text-name {
     font-size: 14px;
     font-weight: 700;
-
 }
 
 .experience__text-speciality {
@@ -301,10 +301,37 @@
 
 .experience__text-making {
 font-weight: 400;
-font-size: 9px;
+font-size: 10px;
 }
 
 .experience__text-item2{
     margin-top: 12px;
     margin-left: 14px;
 }
+
+/*=================================Skills========================*/
+
+.skills__table {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, .8fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+
+.skills {
+    transition: .3s;
+}
+
+.skills:hover{
+    scale: 1.05;
+}
+
+.skills__icon {
+    margin-left: 10px;
+}
+
+.skills__text {
+    margin-top: 5px;
+}
+
