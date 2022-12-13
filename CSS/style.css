@@ -165,10 +165,10 @@
 }
 
 .languages__text-intext{
-    font-family:;
     color: white;
     font-size: 14px;
     font-weight: 100;
+    margin-top: -20px;
 }
 
 /*=================================Hobbies========================*/
@@ -216,6 +216,7 @@
     margin: 0 auto;
     font-size: 12px;
     font-weight: 700px;
+    margin-top: -25px;
 }
 
 /*=================================Experience__nav========================*/
@@ -230,8 +231,6 @@
 }
 .experience {
     width: 294px;
-    height: 202px;
-
 }
 .experience__header-nav {
     display: flex;
@@ -285,13 +284,13 @@
 }
 
 .experience__text-making {
-font-weight: 400;
-font-size: 10px;
+    font-weight: 400;
+    font-size: 12px;
 }
 
 .experience__text-aboutme{
     font-weight: 600;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .experience__text-item2{
@@ -337,7 +336,7 @@ font-size: 10px;
 }
 
 .desandmak{
-    margin-top: 35px;
+    margin-top: 2px;
     font-size: 12px;
     opacity: 50%;
     text-align: center;
