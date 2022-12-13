@@ -135,8 +135,8 @@
 .industry__knowledge-text{
     display: flex;
     flex-direction: column;
-    margin-top: -10px;
-    margin-left: 20px;
+    margin-top: -5px;
+    margin-left: 0px;
     font-size: 14px;
 }
 
