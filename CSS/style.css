@@ -53,6 +53,7 @@ body{
 }
 
 .darkmode{
+    border: 0;
     width: 32px;
     height: 32px;
     background: url(/icons/free-icon-day-and-night-3731790.png);
@@ -64,6 +65,7 @@ body{
 }
 
 .darkmode:hover{
+    border: 0;
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
     scale: 1.1;
