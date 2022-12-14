@@ -1,9 +1,10 @@
+
 .wrapper{
     display: flex;
-    background-color: #ffffff;
+    background-color:  #012049;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     font-family: 'Montserrat';
     transition: 1s;
 }
@@ -17,7 +18,7 @@ body{
     flex-direction: row;
     width: 650px;
     height: 850px;
-    background-color: rgb(0, 0, 0);
+    background-color:  #1c2633;
     border-radius: 10px;
     box-shadow:
        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
@@ -248,7 +249,7 @@ body{
 .container__nav {
     width: 321px;
     height: 830px;
-    background-color: white;
+    background-color:  #304056;
     border-radius: 30px;
     margin-top: 10px;
     margin-left: 6px;
@@ -263,7 +264,7 @@ body{
     justify-content: center;
     width: 154px;
     height: 24px;
-    background-color: #FECB00;
+    background-color: #396294;
     border-radius: 5px;
     margin: 19px 153px 12px 14px;
     transition: 1s;
@@ -283,17 +284,19 @@ body{
     top: 8px;
     height: 1px;
     width: 170px;
-    background-color: #FECB00;
+    background-color:  #396294;
     transition: 1s;
     
 }
 
 .experience__text-item {
     margin-left: 14px;
+    color: white;
     transition: 1s;
 }
 
 .experience__text-name {
+    color: white;
     transition: 1s;
     text-decoration: none;
     font-size: 14px;
@@ -301,6 +304,7 @@ body{
 }
 
 .experience__text-speciality {
+    color: white;
     transition: 1s;
     font-weight: 400;
     font-size: 12px;
@@ -308,6 +312,7 @@ body{
 }
 
 .experience__text-period {
+    color: white;
     transition: 1s;
     font-size: 9px;
     font-weight: 400;
@@ -315,9 +320,10 @@ body{
 }
 
 .experience__text-making {
+    transition: 1s;
+    color: white;
     font-weight: 400;
     font-size: 12px;
-    transition: 1s;
 }
 
 .experience__text-aboutme{
@@ -369,6 +375,7 @@ body{
 
 .desandmak{
     transition: 1s;
+    color: white;
     margin-top: 2px;
     font-size: 12px;
     opacity: 50%;
