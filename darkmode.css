@@ -1,0 +1,385 @@
+
+.wrapper{
+    display: flex;
+    background-color:  #012049;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat';
+    transition: 1s;
+}
+
+body{
+    transition: 1s;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    height: 850px;
+    background-color:  #1c2633;
+    border-radius: 10px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+             0 0  0 2px rgb(0,0,0,0.1),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.header{
+    width: 296px;
+    height: 830px;
+    background-color: #202026;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 14px;
+}
+
+.user {
+    display: flex;
+    width: 270px;
+    height: 116px;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+.photo {
+    width: 110px;
+    height: 116px;
+    background: url(/IMG/IMG_1907.jpg);
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 50px;
+    margin: 10px 22px 0px 17px;
+    transition: 1s;
+}
+
+.darkmode{
+    border: 0;
+    width: 32px;
+    height: 32px;
+    background: url(/icons/free-icon-day-and-night-3731790.png);
+    background-size: cover;
+    -webkit-transition:.8s ease-in-out;
+          transition:.8s ease-in-out;
+    margin-left: 10px;
+    transition: .4s;
+}
+
+.darkmode:hover{
+    border: 0;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    scale: 1.1;
+}
+
+.photo:hover{
+    background: url(/IMG/IMG_0749.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.name {
+    color: white;
+    margin-top: 15px;
+}
+
+.surname {
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.myspeciality {
+    font-size: 15px;
+    margin-top: 5px;
+    opacity: 50%;
+}
+
+/*=================================MYCONTACTS========================*/
+
+.mycontacts {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+
+.icon{
+    width: 20px;
+}
+
+.mycontacts__inner{
+    width: 260px;
+    height: 32px;
+    border-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color:#26272f;
+    transition: .3s;
+}
+
+
+.mycontacts__inner:hover{
+    scale: 1.05;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+.info {
+    font-size: 15px;
+    font-weight: 400px;
+    color: white;
+    margin-left: 32px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+/*=================================Industry Knowledge========================*/
+
+.industry__knowledge{
+    display: flex;
+    margin-top: 13px;
+    align-items: center;
+    color: white;
+    margin-left: 15px;
+    width: 260px;
+    height: 133px;
+    background-color:rgb(56, 59, 59);
+    border-radius: 20px;
+}
+
+.industry__knowledge-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: -5px;
+    margin-left: 0px;
+    font-size: 14px;
+}
+
+/*=================================Languages========================*/
+
+.languages {
+    display: flex;
+    margin-top: 13px;
+    margin-left: 15px;
+    width: 260px;
+    height: 87px;
+    background-color: rgb(56, 59, 59);
+    border-radius: 20px;
+}
+
+.languages__text{
+    margin-left: 21px;
+    margin-top: 5px;
+}
+
+.languages__text-header {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.languages__text-intext{
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: -20px;
+}
+
+/*=================================Hobbies========================*/
+
+.hobbies{
+    margin-top: 12px;
+    margin-left: 15px;
+    width: 260px;
+    height: 97px;
+}
+
+.hobbies__header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100px;
+    height: 32px;
+    background-color: #545454;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.hobbies__inner-grid{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, .8fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+
+.hobbies__inner{
+    color: white;
+    margin-left: 20px;
+    transition: .3s;
+}
+
+.hobbies__inner:hover{
+    scale: 1.05;
+}
+
+.hobbies__inner-text{
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: 700px;
+    margin-top: -25px;
+}
+
+/*=================================Experience__nav========================*/
+
+.container__nav {
+    width: 321px;
+    height: 830px;
+    background-color:  #304056;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 6px;
+    transition: 1s;
+}
+.experience {
+    width: 294px;
+}
+.experience__header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 154px;
+    height: 24px;
+    background-color: #396294;
+    border-radius: 5px;
+    margin: 19px 153px 12px 14px;
+    transition: 1s;
+}
+
+.experience__header-text{
+    position: relative;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 3px 30px 3px 30px;
+}
+
+.experience__header-text::after{
+    position: absolute;
+    content: '';
+    top: 8px;
+    height: 1px;
+    width: 170px;
+    background-color:  #396294;
+    transition: 1s;
+    
+}
+
+.experience__text-item {
+    margin-left: 14px;
+    color: white;
+    transition: 1s;
+}
+
+.experience__text-name {
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.experience__text-speciality {
+    color: white;
+    transition: 1s;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+.experience__text-period {
+    color: white;
+    transition: 1s;
+    font-size: 9px;
+    font-weight: 400;
+
+}
+
+.experience__text-making {
+    transition: 1s;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.experience__text-aboutme{
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.experience__text-item2{
+    margin-top: 12px;
+    margin-left: 14px;
+}
+
+/*=================================Skills========================*/
+
+.skills__table {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, .8fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+
+.skills {
+    transition: .3s;
+}
+
+.skills:hover{
+    scale: 1.05;
+}
+
+.skills__icon {
+    margin-left: 10px;
+}
+
+.skills__text {
+    margin-top: 5px;
+}
+
+/*=================================Footer========================*/
+
+.about__school {
+    margin-left: 15px;
+    transition: .3s;
+}
+
+.about__school:hover{
+    scale: 1.05;
+}
+
+.desandmak{
+    transition: 1s;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 12px;
+    opacity: 50%;
+    text-align: center;
+}
