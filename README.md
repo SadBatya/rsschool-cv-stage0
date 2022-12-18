@@ -1,3 +1,3 @@
 
 https://sadbatya.github.io/rsschool-cv/cv
-https://sadbatya.github.io/rsschool-cv/
+https://github.com/SadBatya/rsschool-cv/tree/rsschool-cv-html
