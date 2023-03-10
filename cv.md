@@ -22,7 +22,7 @@ I have the skills of self-organization and self-discipline, planning and managin
 * JavaScript (Basic)
 * Tools
   + git
-  + githuB
+  + githUB
   + figma, photoshop
 * Methodologies:
   + BEM
